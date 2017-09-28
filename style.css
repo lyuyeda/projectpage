@@ -1,14 +1,39 @@
-*{
-  background-color: Ivory;
-}
 body{
-  margin: 10px 50px 10px 50px;
-  color: DarkBlue;
+  margin: 0px;
+  background-color: transparent;
   font-family: "Open Sans";
 }
-h1, h2, h3, h4, h5, h6{
-  font-family: "Oswald";
+.menu{
+  text-decoration: none;
+  margin: 50px;
+  background-color: antiquewhite;
+  display: block;
+}
+.project{
+  width: 300px;
+  margin: 15px;
+  background-color: yellow;
+  float: left;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+#project-wrapper{
+  margin: 15px;
+}
+li {
+  list-style-type: none;
+  margin: 0% 5% 0% 5%;
+  text-decoration: none;
+  display: inline;
+  padding: 0;
+  float: left;
+}
+a{
+  text-decoration: none;
 }
 img{
+  width: 300px;
+  height: 300px;
   float: left;
 }
